@@ -1,12 +1,20 @@
 {
   "Version": 1,
-  "Hash": "QSZyTYFkONBhru2BA1SjW+gpb5xaFKd3PJW8DOZ5QQQ=",
+  "Hash": "gLbOy7Z3BiDifb1yxHXI1dvhupfCD8s0BuURDzbfq5w=",
   "Source": "Blog",
   "BasePath": "_content/Blog",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Blog/wwwroot",
+      "Source": "Blog",
+      "ContentRoot": "/Users/gavindunkin/projects/Blog/Blog/wwwroot/",
+      "BasePath": "_content/Blog",
+      "Pattern": "**"
+    }
+  ],
   "Assets": [
     {
       "Identity": "/Users/gavindunkin/.nuget/packages/microsoft.aspnetcore.identity.ui/7.0.14/staticwebassets/V5/css/site.css",
@@ -1027,6 +1035,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/gavindunkin/.nuget/packages/microsoft.aspnetcore.identity.ui/7.0.14/staticwebassets/V5/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/gavindunkin/projects/Blog/Blog/wwwroot/content/static/haute-stock-styled-stock-library-white-rose-gold-3-FINAL-1024x683.jpg",
+      "SourceId": "Blog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gavindunkin/projects/Blog/Blog/wwwroot/",
+      "BasePath": "_content/Blog",
+      "RelativePath": "content/static/haute-stock-styled-stock-library-white-rose-gold-3-FINAL-1024x683.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/content/static/haute-stock-styled-stock-library-white-rose-gold-3-FINAL-1024x683.jpg"
     }
   ]
 }
