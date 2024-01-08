@@ -11,15 +11,19 @@ builder.Services.AddDbContext<BlogDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("BlogDbContext") ?? throw new InvalidOperationException("Connection string 'BlogDbContext' not found.")));
 builder.Services.AddMvc(options => options.EnableEndpointRouting = false);
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 {
     options.Password.RequireDigit = false;
     options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireUppercase = false;
     options.Password.RequiredLength = 6;
 })
-    .AddRoles<IdentityRole>()
+    //.AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<BlogDbContext>();
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Auth/Login";
+});
 var app = builder.Build();
 app.UseMvcWithDefaultRoute();
 app.UseAuthentication();

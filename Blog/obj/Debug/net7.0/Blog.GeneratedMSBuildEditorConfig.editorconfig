@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qb3N0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gavindunkin/projects/Blog/Blog/Views/Panel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFuZWwvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gavindunkin/projects/Blog/Blog/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

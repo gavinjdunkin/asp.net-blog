@@ -5,7 +5,7 @@
 namespace Blog.Migrations
 {
     /// <inheritdoc />
-    public partial class Identity : Migration
+    public partial class IdentityTables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
